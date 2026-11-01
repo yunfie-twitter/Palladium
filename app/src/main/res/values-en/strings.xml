@@ -1,0 +1,32 @@
+<resources>
+    <string name="module_name">Palladium</string>
+    <string name="plugin_settings_title">Plugin settings</string>
+    <string name="plugin_settings_summary">Manage installed plugins</string>
+    <string name="plugin_settings_status">The LSPosed hook for Palleria is active.</string>
+    <string name="plugin_settings_empty">No plugins have been added.</string>
+    <string name="plugin_manager_description">Add plugin APKs and enable the ones to load when Palleria starts. Plugins run inside Palleria\'s process.</string>
+    <string name="plugin_import">Add APK</string>
+    <string name="plugin_importing">Checking APK…</string>
+    <string name="plugin_import_success">Plugin added. It is disabled by default.</string>
+    <string name="plugin_import_failed">Could not add plugin: %1$s</string>
+    <string name="plugin_enabled">Enabled</string>
+    <string name="plugin_disabled">Disabled</string>
+    <string name="plugin_waiting_restart">Will load on next launch</string>
+    <string name="plugin_restart_notice">Applying changes to Palleria.</string>
+    <string name="plugin_status_loaded">Running</string>
+    <string name="plugin_status_error">Load error: %1$s</string>
+    <string name="plugin_short_title">Plugins</string>
+    <string name="plugin_settings_open">Open plugin settings</string>
+    <string name="plugin_settings_empty_fields">This plugin has no settings.</string>
+    <string name="plugin_status_error_short">Error</string>
+    <string name="plugin_waiting_restart_short">Pending</string>
+    <string name="plugin_disabled_short">Off</string>
+    <string name="close">Close</string>
+    <string name="plugin_remove">Remove</string>
+    <string name="plugin_remove_confirmation">Remove “%1$s”?</string>
+    <string name="plugin_developer_hint">Plugin APKs must declare their entry class and API version as AndroidManifest.xml metadata. See the repository README for the format.</string>
+    <string name="error_not_plugin_apk">Select an Android APK.</string>
+    <string name="error_invalid_plugin_manifest">The plugin manifest is missing a package name or entry class.</string>
+    <string name="error_plugin_api">The plugin API version is missing or unsupported.</string>
+    <string name="error_read_plugin">Could not read the file.</string>
+</resources>

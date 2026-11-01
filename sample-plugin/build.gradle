@@ -1,0 +1,26 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace = "com.yunfie.palleria.sampleplugin"
+    compileSdk = 37
+
+    defaultConfig {
+        applicationId = "com.yunfie.palleria.sampleplugin"
+        minSdk = 26
+        targetSdk = 35
+        versionCode = 1
+        versionName = "1.0"
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    compileOnly project(":plugin-api")
+    compileOnly "io.github.libxposed:api:101.0.1"
+}

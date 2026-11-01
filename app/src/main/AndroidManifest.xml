@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:allowBackup="false"
+        android:description="@string/module_description"
+        android:label="@string/module_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".PluginSettingsActivity"
+            android:exported="true"
+            android:label="@string/plugin_settings_title"
+            android:theme="@style/PalladiumActivityTheme" />
+    </application>
+</manifest>

@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="Palleria Sample Plugin">
+        <meta-data
+            android:name="com.yunfie.illustia.lsposed.plugin.API"
+            android:value="1" />
+        <meta-data
+            android:name="com.yunfie.illustia.lsposed.plugin.ENTRY"
+            android:value="com.yunfie.palleria.sampleplugin.SamplePlugin" />
+        <meta-data
+            android:name="com.yunfie.illustia.lsposed.plugin.NAME"
+            android:value="Sample plugin" />
+        <meta-data
+            android:name="com.yunfie.illustia.lsposed.plugin.DESCRIPTION"
+            android:value="Confirms plugin loading and unloading." />
+    </application>
+</manifest>
